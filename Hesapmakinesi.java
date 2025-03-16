@@ -9,9 +9,10 @@ public class Hesapmakinesi {
         char islem=input.next().charAt(0);
         System.out.println("İkinci sayıyı gir:");
         double sayi2=input.nextDouble();
-
         double sonuc=0;
-switch (islem) {
+//İşlemler yapılır
+        
+        switch (islem) {
     case '+':sonuc=sayi1+sayi2;
     break;
     case '-':sonuc=sayi1-sayi2;
